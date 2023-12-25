@@ -38,12 +38,7 @@ export default function Portal() {
           </h3>
           <p className="text-gray-600 text-center font-sans">
             Dont Have An Account
-            <Link
-              className="text-white font-bold hover:text-gray-500"
-              href="/register/"
-            >
-              Contact
-            </Link>
+            <span className="text-white">Joey@tech-center.com</span>
           </p>
           <br />
           <div className="bg-gray-700 rounded p-5 text-center">
