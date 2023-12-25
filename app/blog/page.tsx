@@ -1,8 +1,14 @@
 import Link from "next/link";
+import Head from "next/head";
 
 export default function Blog() {
   return (
     <main>
+      <div>
+        <Head>
+          <title>Techtack-Technologies | Blog</title>
+        </Head>
+      </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
