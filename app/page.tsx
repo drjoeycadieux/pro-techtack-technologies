@@ -28,6 +28,11 @@ export default function Home() {
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/portal">Portal</Link>
           </li>
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
+            <Link href="https://oldversion-techtacktechnologies.netlify.app/">
+              Old Version
+            </Link>
+          </li>
         </ul>
       </div>
       <div className="inner"></div>
