@@ -9,7 +9,7 @@ export default function Home() {
             <Link href="/">Welcome</Link>
           </li>
           <li className="text-white font-bold inline hover:text-gray-600">
-            <Link href="/pages/about">About</Link>
+            <Link href="/directory/about">About</Link>
           </li>
         </ul>
       </div>
