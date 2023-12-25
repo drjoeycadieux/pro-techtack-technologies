@@ -33,12 +33,7 @@ export default function Blog() {
       <div className="h-screen bg-gray-700">
         <div className="container-md m-auto p-9 pt-10">
           <div className="bg-gray-600 p-9 rounded">
-            <h3 className="text-white font-sans text-center font-bold">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero
-              exercitationem adipisci tempore fugit nobis, id omnis dolor
-              necessitatibus commodi fuga ex doloremque iusto excepturi modi
-              minus error ab sunt natus?
-            </h3>
+            <h3 className="text-white font-sans text-center font-bold">Blog</h3>
           </div>
         </div>
       </div>
