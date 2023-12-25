@@ -41,7 +41,7 @@ export default function Home() {
       </div>
       <div className="inner"></div>
       <div className="bg-gray-900 p-5">
-        <p className="text-white font-bold font-sans text-center">
+        <p className="text-white p-2 font-bold font-sans text-center">
           Help us improve our website by sending feedback about your usage of
           our website.
           <a className="text-blue-600 hover:text-blue-400" href="#">
