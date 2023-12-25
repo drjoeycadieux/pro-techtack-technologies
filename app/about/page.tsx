@@ -6,14 +6,14 @@ export default function about() {
     <main>
       <div>
         <head>
-          <title>Techtack-Technologies</title>
+          <title>Techtack-Technologies | About</title>
         </head>
       </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
             <p className="text-white inline font-bold font-sans text-3xl">
-              Techtack-Technologies | About
+              Techtack-Technologies
             </p>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
