@@ -1,13 +1,13 @@
 import Link from "next/link";
 
-export default function about() {
+export default function Blog() {
   return (
     <main>
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
             <p className="text-white inline font-bold font-sans text-3xl">
-              Techtack-Technologies
+              Techtack-Technologies | Blog
             </p>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
