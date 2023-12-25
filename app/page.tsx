@@ -1,6 +1,10 @@
-import Link from "next/link";
+// import Link from "next/link";
+"use client";
+import { useRouter } from "next/navigation";
 
 export default function Home() {
+  const router = useRouter();
+
   return (
     <main>
       <div className="bg-gray-800 p-9">
@@ -11,13 +15,13 @@ export default function Home() {
             </p>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/">Welcome</Link>
-          </li>
-          <li className="text-white font-bold inline hover:text-gray-600">
-            <Link href="/about">About</Link>
+            <button onClick={() => router.push("/")}>Welcome</button>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/portal">Portal</Link>
+            <button onClick={() => router.push("/about")}>About</button>
+          </li>
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
+            <button onClick={() => router.push("/portal")}>Portal</button>
           </li>
         </ul>
       </div>
