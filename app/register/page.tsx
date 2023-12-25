@@ -48,9 +48,8 @@ export default function Portal() {
           <br />
           <div className="bg-gray-700 rounded p-5 text-center">
             <p className="text-gray-400 text-center font-sans font-bold">
-              Don't have account? No problem. Just let us know your email
-              address and we will email your info that will allow you to get
-              setup.
+              Dont have account No problem. Just let us know your email address
+              and we will email your info that will allow you to get setup.
             </p>
           </div>
         </div>
