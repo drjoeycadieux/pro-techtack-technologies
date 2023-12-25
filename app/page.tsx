@@ -47,7 +47,8 @@ export default function Home() {
       </div>
       <div className="bg-gray-800 p-6">
         <p className="text-white font-mono text-center">
-          &copy; Copyright 2023 Techtack-Technologies. All right reserved.
+          &copy; Copyright 2020-2023 Powered By TeamLitho Techtack-Technologies.
+          All right reserved.
         </p>
       </div>
       <div className="inner"></div>
