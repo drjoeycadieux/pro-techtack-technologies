@@ -5,9 +5,9 @@ export default function about() {
   return (
     <main>
       <div>
-        <Head>
+        <head>
           <title>Techtack-Technologies | About</title>
-        </Head>
+        </head>
       </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">

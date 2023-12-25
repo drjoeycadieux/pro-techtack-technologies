@@ -5,9 +5,9 @@ export default function Portal() {
   return (
     <div>
       <div>
-        <Head>
+        <head>
           <title>Techtack-Technologies | Portal</title>
-        </Head>
+        </head>
       </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">
@@ -37,6 +37,12 @@ export default function Portal() {
           <h3 className="text-white font-bold font-sans text-center text-2xl">
             Login To Your Account.
           </h3>
+          <p className="text-gray-600 text-center font-sans">
+            Don't Have An Account ?
+            <Link className="text-white font-bold hover:text-gray-500" href="#">
+              Register
+            </Link>
+          </p>
           <div className="p-5 text-center">
             <input
               type="email"
