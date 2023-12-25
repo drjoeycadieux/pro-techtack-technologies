@@ -38,7 +38,7 @@ export default function Portal() {
             Login To Your Account.
           </h3>
           <p className="text-gray-600 text-center font-sans">
-            Don't Have An Account ?
+            Don't Have An Account
             <Link className="text-white font-bold hover:text-gray-500" href="#">
               Register
             </Link>
