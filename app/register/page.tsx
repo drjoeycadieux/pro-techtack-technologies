@@ -34,7 +34,7 @@ export default function Portal() {
       <div className="bg-white container m-auto">
         <div className="bg-gray-800 p-9 pt-10 rounded">
           <h3 className="text-white font-bold font-sans text-center text-2xl">
-            Login To Your Account.
+            Please, contact us to be registered on our site.
           </h3>
           <p className="text-gray-600 text-center font-sans">
             Dont Have An Account
@@ -42,29 +42,16 @@ export default function Portal() {
               className="text-white font-bold hover:text-gray-500"
               href="/register/"
             >
-              Register
+              Contact
             </Link>
           </p>
-          <div className="p-5 text-center">
-            <input
-              type="email"
-              placeholder="Your Email"
-              name="email"
-              id="email"
-            />
-          </div>
-          <div className="m-5 text-center">
-            <input
-              type="password"
-              placeholder="Your Password"
-              name="password"
-              id="password"
-            />
-          </div>
-          <div className="p-5 text-center">
-            <button className="login" type="submit">
-              Login
-            </button>
+          <br />
+          <div className="bg-gray-700 rounded p-5 text-center">
+            <p className="text-gray-400 text-center font-sans font-bold">
+              Don't have account? No problem. Just let us know your email
+              address and we will email your info that will allow you to get
+              setup.
+            </p>
           </div>
         </div>
       </div>
