@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function About() {
+export default function about() {
   return (
     <div>
       <div className="bg-gray-900 p-9">
