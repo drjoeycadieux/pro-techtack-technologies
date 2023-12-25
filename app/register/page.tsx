@@ -32,7 +32,7 @@ export default function Portal() {
       </div>
       <br />
       <div className="bg-white container m-auto">
-        <div className="bg-gray-800 p-9 pt-10 rounded">
+        <div className="bg-gray-800 w-11/12 m-auto p-9 pt-10 rounded">
           <h3 className="text-white font-bold font-sans text-center text-2xl">
             Please, contact us to be registered on our site.
           </h3>

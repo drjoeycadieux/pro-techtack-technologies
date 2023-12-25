@@ -31,7 +31,7 @@ export default function Portal() {
         </ul>
       </div>
       <br />
-      <div className="bg-white container m-auto">
+      <div className="bg-white w-11/12 m-auto">
         <div className="bg-gray-800 p-9 pt-10 rounded">
           <h3 className="text-white font-bold font-sans text-center text-2xl">
             Login To Your Account.
