@@ -6,7 +6,7 @@ export default function about() {
     <main>
       <div>
         <head>
-          <title>Techtack-Technologies | About</title>
+          <title>Techtack-Technologies</title>
         </head>
       </div>
       <div className="bg-gray-800 p-9">

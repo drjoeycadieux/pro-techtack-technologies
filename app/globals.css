@@ -52,3 +52,8 @@ input[type="email"],
 .login:hover {
   background-color: white;
 }
+
+.inner {
+  padding: 1px;
+  background-color: rgb(35, 35, 187);
+}

@@ -6,7 +6,7 @@ export default function Portal() {
     <div>
       <div>
         <head>
-          <title>Techtack-Technologies | Portal</title>
+          <title>Techtack-Technologies</title>
         </head>
       </div>
       <div className="bg-gray-800 p-9">
