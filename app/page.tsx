@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div>
+    <main>
       <div className="bg-gray-900 p-9">
         <ul className="block">
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
@@ -44,6 +44,6 @@ export default function Home() {
           </a>
         </p>
       </div>
-    </div>
+    </main>
   );
 }
