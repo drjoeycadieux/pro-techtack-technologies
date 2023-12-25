@@ -14,10 +14,10 @@ export default function Home() {
             <Link href="/">Welcome</Link>
           </li>
           <li className="text-white font-bold inline hover:text-gray-600">
-            <Link href="/pages/about">About</Link>
+            <Link href="/about">About</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/pages/portal">Portal</Link>
+            <Link href="/portal">Portal</Link>
           </li>
         </ul>
       </div>
