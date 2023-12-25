@@ -7,14 +7,17 @@ export default function Blog() {
         <ul className="block">
           <li className="inline m-5">
             <p className="text-white inline font-bold font-sans text-3xl">
-              Techtack-Technologies | Blog
+              Techtack-Technologies
             </p>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/">Welcome</Link>
           </li>
-          <li className="text-white font-bold inline hover:text-gray-600">
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/about">About</Link>
+          </li>
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
+            <Link href="/blog">Blog</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/portal">Portal</Link>
