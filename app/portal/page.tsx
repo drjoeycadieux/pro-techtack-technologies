@@ -31,15 +31,14 @@ export default function Portal() {
         </ul>
       </div>
       <br />
-      {/* Sign in portal */}
       <div className="bg-white container m-auto">
         <div className="bg-gray-800 p-9 pt-10 rounded">
           <h3 className="text-white font-bold font-sans text-center text-2xl">
             Login To Your Account.
           </h3>
           <p className="text-gray-600 text-center font-sans">
-            Don't Have An Account
-            <Link className="text-white font-bold hover:text-gray-500" href="#">
+            Dont Have An Account
+            <Link className="text-white font-bold hover:text-gray-500" href="/">
               Register
             </Link>
           </p>
