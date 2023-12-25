@@ -24,6 +24,36 @@ export default function Portal() {
           </li>
         </ul>
       </div>
+      <br />
+      {/* Sign in portal */}
+      <div className="bg-white container m-auto">
+        <div className="bg-gray-800 p-9 pt-10 rounded">
+          <h3 className="text-white font-bold font-sans text-center text-2xl">
+            Login To Your Account.
+          </h3>
+          <div className="p-5 text-center">
+            <input
+              type="email"
+              placeholder="Your Email"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div className="m-5 text-center">
+            <input
+              type="password"
+              placeholder="Your Password"
+              name="password"
+              id="password"
+            />
+          </div>
+          <div className="p-5 text-center">
+            <button className="login" type="submit">
+              Login
+            </button>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
