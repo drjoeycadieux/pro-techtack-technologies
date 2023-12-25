@@ -11,6 +11,9 @@ export default function Home() {
           <li className="text-white font-bold inline hover:text-gray-600">
             <Link href="/about">About</Link>
           </li>
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
+            <Link href="/portal">Portal</Link>
+          </li>
         </ul>
       </div>
       <div className="bg-gray-800 p-9 text-center">
