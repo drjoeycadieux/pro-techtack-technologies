@@ -29,6 +29,9 @@ export default function Home() {
             <Link href="/portal">Portal</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
+            <Link href="/contact">Contact</Link>
+          </li>
+          <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="https://oldversion-techtacktechnologies.netlify.app/">
               Old Version
             </Link>

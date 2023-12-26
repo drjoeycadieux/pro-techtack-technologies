@@ -57,3 +57,9 @@ input[type="email"],
   padding: 1px;
   background-color: rgb(35, 35, 187);
 }
+
+.inner1 {
+  width: 900px;
+  border-color: brown;
+  padding: 1px;
+}
