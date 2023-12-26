@@ -1,6 +1,38 @@
 import Link from "next/link";
+import { useRouter } from "next/router";
+
+import { useState } from "react";
 
 export default function Internal() {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const router = useRouter();
+
+  const handleLogin = async () => {
+    try {
+      const response = await fetch("/api/login", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, password }),
+      });
+
+      if (response.ok) {
+        // Handle successful login
+        console.log("Login successful");
+
+        // Redirect to the dashboard page
+        router.push("/dashboard");
+      } else {
+        // Handle failed login
+        console.error("Login failed");
+      }
+    } catch (error) {
+      console.error("Error during login:", error);
+    }
+  };
+
   return (
     <div>
       <div>
@@ -21,6 +53,8 @@ export default function Internal() {
               placeholder="Your Internal Email"
               name="internal-email"
               id="internal-email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
           <div>
@@ -29,11 +63,14 @@ export default function Internal() {
               placeholder="Your Internal Password"
               name="internal-password"
               id="internal-password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
             />
           </div>
           <button
             className="py-2 p-2 w-24 bg-blue-700 rounded font-bold text-white hover:bg-blue-800"
             type="submit"
+            onClick={handleLogin}
           >
             Log in
           </button>
