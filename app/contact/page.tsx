@@ -32,12 +32,12 @@ export default function Contact() {
           </li>
         </ul>
       </div>
-      <br />
-      <div className="bg-gray-700 p-9 pt-10 w-11/12 m-auto">
+      <div className="inner"></div>
+      <div className="bg-gray-700 h-screen">
         <p className="text-white font-sans font-bold text-3xl text-center">
           Contact
-          <div className="inner1"></div>
         </p>
+        <div className=""></div>
       </div>
     </div>
   );

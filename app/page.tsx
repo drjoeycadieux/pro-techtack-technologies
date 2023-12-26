@@ -7,6 +7,14 @@ export default function Home() {
         <p className="text-gray-800 font-bold font-sans text-center">
           Our website is still in-development, This domain
           techtack-technologies.com will redirect here.
+          <a
+            className="text-white font-sans hover:text-gray-700"
+            href="https://oldversion-techtacktechnologies.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Old Version
+          </a>
         </p>
       </div>
       <div className="bg-gray-800 p-9">
@@ -30,11 +38,6 @@ export default function Home() {
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/contact">Contact</Link>
-          </li>
-          <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="https://oldversion-techtacktechnologies.netlify.app/">
-              Old Version
-            </Link>
           </li>
         </ul>
       </div>
