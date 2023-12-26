@@ -3,6 +3,11 @@ import Link from "next/link";
 export default function Internal() {
   return (
     <div>
+      <div>
+        <head>
+          <title>Techtack-Technologies | Internal Access</title>
+        </head>
+      </div>
       <div className="container p-9">
         <p className="text-center underline p-5 text-gray-800 font-bold text-5xl font-sans">
           Internal Access
