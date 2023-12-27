@@ -40,8 +40,8 @@ export default function Internal() {
           <title>Techtack-Technologies | Internal Access</title>
         </head>
       </div>
-      <div className="container p-9">
-        <p className="text-center underline p-5 text-gray-800 font-bold text-5xl font-sans">
+      <div className="container text-center p-9">
+        <p className="underline p-5 text-gray-800 font-bold text-5xl font-sans">
           Internal Access
         </p>
       </div>
