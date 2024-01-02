@@ -2,7 +2,6 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 
 import { useState } from "react";
-
 export default function Internal() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -40,8 +39,8 @@ export default function Internal() {
           <title>Techtack-Technologies | Internal Access</title>
         </head>
       </div>
-      <div className="container text-center p-9">
-        <p className="underline p-5 text-gray-800 font-bold text-5xl font-sans">
+      <div className="container p-9">
+        <p className="underline text-center p-5 text-gray-800 font-bold text-5xl font-sans">
           Internal Access
         </p>
       </div>
