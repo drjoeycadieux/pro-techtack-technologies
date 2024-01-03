@@ -3,20 +3,6 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      {/* <div className="bg-blue-600 p-3">
-        <p className="text-gray-800 font-bold font-sans text-center">
-          Our website is still in-development, This domain
-          techtack-technologies.com will redirect here.
-          <a
-            className="text-white font-sans hover:text-gray-700"
-            href="https://oldversion-techtacktechnologies.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Old Version
-          </a>
-        </p>
-      </div> */}
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
