@@ -9,6 +9,7 @@ export default function Page() {
           Internal Access
         </p>
       </div>
+      <h3>Login</h3>
       <br />
       <div>
         <div className="bg-blue-700 p-9 pt-10 w-96 m-auto rounded text-center">
