@@ -33,12 +33,20 @@ export default function Home() {
         </ul>
       </div>
       <div className="inner"></div>
+
       <div className="h-screen bg-gray-700">
         <div className="container-md m-auto p-9 pt-10">
           <div className="bg-gray-600 p-9 rounded w-11/12 m-auto">
             <h3 className="text-white font-sans text-3xl text-center font-bold">
               Most Advanced Platform For Developers From Developers.
             </h3>
+          </div>
+        </div>
+        <div className="bg-gray-600">
+          <div className="p-9 rounded w-11/12 m-auto">
+            <p className="text-white font-bold font-sans text-center text-3xl">
+              Welcome to our Home
+            </p>
           </div>
         </div>
       </div>
