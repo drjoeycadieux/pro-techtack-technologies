@@ -3,6 +3,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
+      <div className="p-3 bg-blue-500">
+        <p className="text-white font-bold font-sans text-center">
+          <span>
+            <i className="bi bi-info-circle"></i>
+          </span>
+          New Feature Coming Soon!.
+        </p>
+      </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
