@@ -38,19 +38,37 @@ export default function Page() {
             </ul>
           </div>
           <div className="inner"></div>
-          <div className="container m-auto">
-            <div className="bg-gray-700 p-6">
+          <div className="bg-red-600 p-3">
+            <p className="text-white font-bold font-sans text-center">
+              For Technical Issues, Please Send An Email To
+              <a
+                className="text-gray-700"
+                href="mailto:joeycadieux161@gmail.com, joey@tech-center.com"
+              >
+                Redirect
+              </a>
+            </p>
+          </div>
+          <div className="container m-auto p-9">
+            <div className="bg-gray-700 p-6 rounded">
               <p className="text-white text-2xl font-bold font-sans text-center">
                 Issues Reporting Form.
               </p>
             </div>
           </div>
+          <div className="p-9">
+            <iframe
+              src="https://forms.gle/rYaQq9zP3M5eJi817"
+              width={800}
+              height={800}
+            ></iframe>
+          </div>
         </div>
       </div>
       <div className="bg-gray-800 p-6">
         <p className="text-white font-mono text-center">
-          &copy; Copyright 2020-2023 Powered By TeamLitho Techtack-Technologies.
-          All right reserved.
+          &copy; Copyright 2020-2023 Powered By TeamLitho.
+          Techtack-Technologies. All right reserved.
         </p>
       </div>
       <div className="inner"></div>
