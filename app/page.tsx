@@ -41,13 +41,6 @@ export default function Home() {
             </h3>
           </div>
         </div>
-        <div className="bg-gray-600">
-          <div className="p-9 rounded w-11/12 m-auto">
-            <p className="text-white font-bold font-sans text-center text-3xl">
-              Welcome to our Home
-            </p>
-          </div>
-        </div>
       </div>
       <div className="bg-gray-800 p-6">
         <p className="text-white font-mono text-center">

@@ -42,7 +42,7 @@ export default function Page() {
             <p className="text-white font-bold font-sans text-center">
               For Technical Issues, Please Send An Email To
               <a
-                className="text-gray-700"
+                className="text-gray-500"
                 href="mailto:joeycadieux161@gmail.com, joey@tech-center.com"
               >
                 Redirect to mail
