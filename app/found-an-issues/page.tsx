@@ -45,12 +45,12 @@ export default function Page() {
                 className="text-gray-700"
                 href="mailto:joeycadieux161@gmail.com, joey@tech-center.com"
               >
-                Redirect
+                Redirect to mail
               </a>
             </p>
           </div>
           <div className="container m-auto p-9">
-            <div className="bg-gray-700 p-6 rounded">
+            <div className="bg-gray-700 w-64 m-auto p-6 rounded">
               <p className="text-white text-2xl font-bold font-sans text-center">
                 Issues Reporting Form.
               </p>
