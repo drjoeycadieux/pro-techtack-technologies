@@ -3,14 +3,13 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      {/* <div className="p-3 bg-blue-500">
-        <p className="text-white font-bold font-sans text-center">
-          <span>
-            <i className="bi bi-info-circle"></i>
-          </span>
-          New Feature Coming Soon!.
-        </p>
-      </div> */}
+      <div className="bg-blue-600 p-3">
+        <div className="container m-auto">
+          <p className="text-white text-center font-bold font-sans text-1xl">
+            Welcome to Techtack-Technologies
+          </p>
+        </div>
+      </div>
       <div className="bg-gray-800 p-9">
         <ul className="block">
           <li className="inline m-5">
@@ -22,10 +21,10 @@ export default function Home() {
             <Link href="/">Welcome</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/about">About</Link>
+            <Link href="/home">Home</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/blog">Blog</Link>
+            <Link href="/found-an-issues">Found an Issues</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/portal">Portal</Link>
