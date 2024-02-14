@@ -20,10 +20,10 @@ export default function Portal() {
             <Link href="/">Welcome</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/about">About</Link>
+            <Link href="/home">Home</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
-            <Link href="/blog">Blog</Link>
+            <Link href="/found-an-issues">Found an Issues</Link>
           </li>
           <li className="text-white font-bold inline m-8 hover:text-gray-600">
             <Link href="/portal">Portal</Link>
