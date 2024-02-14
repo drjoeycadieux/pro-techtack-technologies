@@ -48,17 +48,35 @@ export default function Page() {
           <h1 className="text-white text-center text-1xl font-sans font-bold bg-gray-700 p-7 w-11/12 m-auto rounded">
             Issues Reporting Form.
           </h1>
-          <iframe
-            src="https://docs.google.com/forms/d/e/1FAIpQLSeeEwYeOKxT60uaECMPWvNB6Ub62lFhraw0JfTVWFMDx3qXJg/viewform?embedded=true"
-            width="640"
-            height="800"
-            frameborder="0"
-            marginheight="0"
-            marginwidth="0"
-          >
-            Chargement en cours…
-          </iframe>
+          <div>
+            <iframe
+              src="https://docs.google.com/forms/d/e/1FAIpQLSeeEwYeOKxT60uaECMPWvNB6Ub62lFhraw0JfTVWFMDx3qXJg/viewform?embedded=true"
+              width="640"
+              height="800"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+            >
+              Chargement en cours…
+            </iframe>
+          </div>
         </div>
+      </div>
+      <div className="bg-gray-800 p-6">
+        <p className="text-white font-mono text-center">
+          &copy; Copyright 2020-2023 Powered By TeamLitho Techtack-Technologies.
+          All right reserved.
+        </p>
+      </div>
+      <div className="inner"></div>
+      <div className="bg-gray-900 p-5">
+        <p className="text-white p-2 font-bold font-sans text-center">
+          Help us improve our website by sending feedback about your usage of
+          our website.
+          <a className="text-blue-600 hover:text-blue-400" href="#">
+            Send FeedBack!
+          </a>
+        </p>
       </div>
     </div>
   );

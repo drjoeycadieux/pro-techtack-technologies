@@ -40,6 +40,22 @@ export default function Page() {
           <div className="inner"></div>
         </div>
       </div>
+      <div className="bg-gray-800 p-6">
+        <p className="text-white font-mono text-center">
+          &copy; Copyright 2020-2023 Powered By TeamLitho Techtack-Technologies.
+          All right reserved.
+        </p>
+      </div>
+      <div className="inner"></div>
+      <div className="bg-gray-900 p-5">
+        <p className="text-white p-2 font-bold font-sans text-center">
+          Help us improve our website by sending feedback about your usage of
+          our website.
+          <a className="text-blue-600 hover:text-blue-400" href="#">
+            Send FeedBack!
+          </a>
+        </p>
+      </div>
     </div>
   );
 }
