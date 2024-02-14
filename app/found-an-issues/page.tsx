@@ -53,7 +53,7 @@ export default function Page() {
             </p>
           </div>
           <div className="container m-auto p-9">
-            <div className="bg-gray-700 w-48 m-auto p-6 rounded">
+            <div className="bg-gray-700 w-64 m-auto p-6 rounded">
               <p className="text-white text-2xl font-bold font-sans text-center">
                 Issues Reporting Form.
               </p>
