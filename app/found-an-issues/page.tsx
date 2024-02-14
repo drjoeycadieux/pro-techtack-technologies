@@ -38,7 +38,7 @@ export default function Page() {
             </ul>
           </div>
           <div className="inner"></div>
-          <div className="bg-yellow-600 p-3">
+          <div className="bg-red-600 p-3">
             <p className="text-white font-bold font-sans text-center">
               <span>
                 <i className="bi bi-exclamation-triangle-fill"></i>
