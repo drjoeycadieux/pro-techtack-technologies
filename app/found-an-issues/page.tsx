@@ -38,8 +38,11 @@ export default function Page() {
             </ul>
           </div>
           <div className="inner"></div>
-          <div className="bg-red-600 p-3">
+          <div className="bg-yellow-600 p-3">
             <p className="text-white font-bold font-sans text-center">
+              <span>
+                <i className="bi bi-exclamation-triangle-fill"></i>
+              </span>{" "}
               For Technical Issues, Please Send An Email To
               <a
                 className="text-gray-500"
@@ -56,7 +59,7 @@ export default function Page() {
               </p>
             </div>
           </div>
-          <div className="p-9">
+          <div className="p-9 text-center">
             <iframe
               src="https://forms.gle/rYaQq9zP3M5eJi817"
               width={800}

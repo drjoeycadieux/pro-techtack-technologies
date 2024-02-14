@@ -3,10 +3,14 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <div className="bg-blue-600 p-3">
+      <div className="bg-yellow-600 border-amber-600 p-3">
         <div className="container m-auto">
           <p className="text-white text-center font-bold font-sans text-1xl">
-            Welcome to Techtack-Technologies
+            <span>
+              <i className="bi bi-exclamation-triangle-fill"></i>
+            </span>
+            Techtack-Technologies - is under maintenance for long period of
+            time.
           </p>
         </div>
       </div>
