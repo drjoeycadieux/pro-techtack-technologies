@@ -40,6 +40,28 @@ export default function Page() {
           <div className="inner"></div>
         </div>
       </div>
+      <div className="bg-purple-700 p-9">
+        <div className="container p-9 text-center">
+          <h1 className="text-white font-bold font-sans text-3xl">
+            Japan has a large conglomerate of international level such as:
+            Fujifilm (which developed the first general public computer, the
+            FUJIC (in) 1999 in 1956) and Sony, Panasonic, Canon, Nikon, Fujitsu,
+            Hitachi, Sharp, NEC , Nintendo, Epson or Toshiba are among the most
+            famous companies in the world.
+          </h1>
+        </div>
+      </div>
+
+      <div className="bg-green-700 p-9">
+        <div className="container p-9 text-center">
+          <h1 className="text-white font-bold font-sans text-3xl">
+            With Content Technology, we enable Media Companies, Educational
+            organisations, Corporate Institutions and Retailers engage their
+            customers and staff by creating workflow solutions that create
+            content, manage content, distribute content and analyse content.
+          </h1>
+        </div>
+      </div>
       <div className="bg-gray-800 p-6">
         <p className="text-white font-mono text-center">
           &copy; Copyright 2020-2023 Powered By TeamLitho Techtack-Technologies.
