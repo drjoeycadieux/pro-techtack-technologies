@@ -13,6 +13,17 @@ export default function Page() {
             <div className="container m-auto">
               <p className="text-white text-center font-bold font-sans text-1xl">
                 Welcome to Techtack-Technologies
+                <a
+                  className="text-gray-800 underline hover:text-gray-400"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Learn More
+                  <span>
+                    <i className="bi bi-caret-right-fill"></i>
+                  </span>
+                </a>
               </p>
             </div>
           </div>
@@ -38,10 +49,10 @@ export default function Page() {
             </ul>
           </div>
           <div className="inner"></div>
-          <div className="bg-yellow-600 p-3">
+          <div className="bg-orange-500 p-3">
             <p className="text-white font-bold font-sans text-center">
               <span>
-                <i className="bi bi-exclamation-triangle-fill"></i>
+                <i className="bi bi-info-circle"></i>
               </span>
               For Technical Issues, Please Send An Email To
               <a
