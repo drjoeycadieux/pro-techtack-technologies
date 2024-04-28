@@ -9,8 +9,8 @@ export default function Home() {
             <span>
               <i className="bi bi-exclamation-triangle-fill"></i>
             </span>
-            Techtack-Technologies - is under maintenance for long period of
-            time.
+            Techtack-Technologies - The site is under maintenance and comes back
+            very quickly, thank you for your patience.
           </p>
         </div>
       </div>
